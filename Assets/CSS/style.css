@@ -33,29 +33,28 @@ body {
   text-align: right;
 }
 
-.display-operation,
-.calculator-operation {
+.display-operation {
+  color: #777;
   min-height: 1.6em;
   padding: 0.2em;
   overflow-wrap: break-word;
 }
 
-.display-operation {
-  color: #777;
-}
-
 .calculator-operation {
   font-size: 3em;
   font-weight: 700;
+  min-height: 1.6em;
+  padding: 0.2em;
+  overflow-wrap: break-word;
 }
 
-.calculator-btn {
+#calculator-btn {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3px;
 }
 
-.calculator-btn button {
+#calculator-btn button {
   border: 1px solid transparent;
   border-radius: 0;
   height: 4em;
@@ -64,218 +63,21 @@ body {
   cursor: pointer;
 }
 
-.calculator-btn .number {
+#calculator-btn .number {
   background-color: #f3f3f3;
 }
 
-.calculator-btn button:hover {
+#calculator-btn button:hover {
   background-color: #bababa;
   border-color: #999;
 }
 
-.calculator-btn .equal-btn {
+#calculator-btn .equal-btn {
   grid-column: span 2;
   background-color: #75a5cb;
 }
 
-.calculator-btn .equal-btn:hover {
+#calculator-btn .equal-btn:hover {
   grid-column: span 2;
   background-color: #3a91d8;
 }
-
-/*html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    margin: 0;
-  }
-    
-  embed,
-  iframe,
-  img,
-  object,
-  video {
-    max-width: 100%;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  ul,
-  ol,
-  li,
-  p,
-  pre,
-  blockquote,
-  figure,
-  hr {
-    margin: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    display: block;
-  }
-    
-  ol,
-  ul {
-    list-style: none;
-  }
-  
-  input,
-  textarea,
-  button {
-    border: 0;
-    border-radius: 0;
-    background-color: transparent;
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-    outline: none;
-    appearance: none;
-    text-align: left;
-  }
-  
-  input:hover,
-  input:active,
-  input:focus,
-  textarea:hover,
-  textarea:active,
-  textarea:focus,
-  button:hover,
-  button:active,
-  button:focus {
-    outline: none;
-  }
-  
-  :root {
-    font-family: Helvetica, Arial, sans-serif;
-  }*/
-
-/*     mobile first     */
-
-/*html {
-    font-weight: 500;
-    line-height: 1.3;
-}
-body {
-    width: 50vh;
-    height: 100vh;
-}
-
-header {
-    height: 10vh;
-    display: flex;
-    background-color: aliceblue;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header img {
-    width: 8vh;
-    height: 8vh;
-}
-
-main {
-    align-items: center;
-    background-image: linear-gradient(180deg, rgb(86, 86, 86), rgb(81, 81, 81));
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-}
-
-
-.container {
-    display: block;
-    max-width: 92vh;
-    height: 100vh;
-}
-
-.container  p {
-    text-align: center;
-}
-
-.calculator {
-    border-radius: 12px;
-    border: 3px solid black;
-    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    width: 45vh;
-    height: 70vh;
-    overflow: hidden;
-}
-
-.calculator_display {
-    background-color: #222222;
-    color: #fff;
-    font-size: 4em;
-    padding: 0.5em 0.75em;
-    text-align: right;
-}
-
-.calculator_keys {
-    background-color: #999;
-    font-size: 1.3em;  
-    font-weight: bold;  
-    height: 21em;
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.calculator_keys > * {
-    background-color: #fff;
-    padding: 0.5em 1.25em;
-    position: relative;
-    text-align: center;
-}
-
-.calculator_keys> *:active::before,
-.calculator_keys> .is-depressed::before {
-    background-color: rgba(0, 0, 0, 0.2);
-    bottom: 0;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5) inset;
-    content: "";
-    left: 0;
-    opacity: 0.3;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
-
-.key--operator {
-    background-color: #eee;
-}
-
-.key--equal {
-    background-image: linear-gradient(to bottom, #5285fe, #523cf9);
-    grid-column: -2;
-    grid-row: 2 / span 4;
-}*/
