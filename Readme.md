@@ -15,4 +15,4 @@ O projeto foi desenvolvido com intuito de melhorar algumas coisas habilidades qu
 
 
 
-[![Deploy](https://calculadora-js-gbryans.netlify.app)](/https://app.netlify.com//)
+[![Deploy](https://calculadora-js-gbryans.netlify.app)](/https://netlify.com//)
