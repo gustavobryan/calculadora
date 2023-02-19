@@ -14,5 +14,4 @@ O projeto foi desenvolvido com intuito de melhorar algumas coisas habilidades qu
 
 
 
-
-[![Deploy](https://calculadora-js-gbryans.netlify.app)](/https://netlify.com//)
+A calculadora pode ser acessada [aqui](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md)
