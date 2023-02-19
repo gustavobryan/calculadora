@@ -14,5 +14,5 @@ O projeto foi desenvolvido com intuito de melhorar algumas coisas habilidades qu
 
 
 
- [![Netlify Status](https://calculadora-gbryans.netlify.app/)
+ #https://calculadora-gbryans.netlify.app/
 
