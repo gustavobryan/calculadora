@@ -59,25 +59,25 @@ body {
   border-radius: 0;
   height: 4em;
   font-size: 1.2em;
-  background-color: #dbdbdb;
+  background-color: #6ab4f4;
   cursor: pointer;
 }
 
 #calculator-btn .number {
-  background-color: #f3f3f3;
+  background-color: #8dc6ff;
 }
 
 #calculator-btn button:hover {
-  background-color: #bababa;
+  background-color: #6591bc;
   border-color: #999;
 }
 
 #calculator-btn .equal-btn {
   grid-column: span 2;
-  background-color: #75a5cb;
+  background-color: #413a3a;
 }
 
 #calculator-btn .equal-btn:hover {
   grid-column: span 2;
-  background-color: #3a91d8;
+  background-color: #717171;
 }
